@@ -4,7 +4,7 @@ angular.module('brushfire', ['toastr', 'compareTo', 'ui.bootstrap'])
       'self',
       '*://www.youtube.com/**'
     ]);
-  })
+  }])
 
 .filter('spaceless', function() {
   return function(input) {
